@@ -35,7 +35,7 @@ public class Driver {
 
     public static WebDriverWait getWait() {
         if (webDriverWait == null) {
-            webDriverWait = new WebDriverWait(Driver.get(), 5);
+            webDriverWait = new WebDriverWait(Driver.get(), 20);
         }
         return webDriverWait;
     }
